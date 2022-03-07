@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator-body {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+    height: 500px;
+    width: 300px;
+    margin: 100px auto;
+    border: 1px solid black;
+}
+
+.number-display {
+    grid-column: 1/-1;
+    position: relative;
+    border: 5px solid black;
+}
+.numbers {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 32px;
+}
+
+.clear-button {
+    grid-column: 1/4;
+}
+
+.division-button {
+}
+
+.multiply-button {
+}
+
+.subtract-button {
+}
+
+.addition-button {
+}
+
+.number-button {
+}
+
+.equal-button {
+    grid-column: 2/-1;
+}
