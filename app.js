@@ -32,6 +32,9 @@ function operate(operator, a, b) {
 function equate() {
     if (numArray.length < 2) return;
     numArray.push(parseInt(displayPara.textContent));
+    if (numArray.includes('divide') && numArray[2] === 0) { 
+        return displayPara.textContent = 'Nice Try'
+    }
     let result = operate(eval(numArray[1]), numArray[0], numArray[2]);
     if (result % 1 != 0) {
         displayPara.textContent = result.toFixed(2);
