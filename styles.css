@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(6, auto);
+    gap: 1px;
     height: 500px;
     width: 300px;
     margin: 100px auto;
@@ -20,6 +21,13 @@
     position: relative;
     border: 5px solid black;
 }
+
+.number-tracker {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+
 .numbers {
     position: absolute;
     bottom: 5px;
