@@ -7,6 +7,7 @@
 
 button {
     font-weight: bold;
+    font-size: 15px;
     border-radius: 5px;
 }
 
@@ -45,24 +46,17 @@ button {
 
 .operator {
     background-color: rgba(255, 166, 0, 0.932);
+    font-size: 18px;
+}
+
+.multiply-button {
+    font-size: 14px;
 }
 
 .clear-button {
     grid-column: 1/4;
     background-color: hsl(0, 75%, 57%);
     font-weight: bold;
-}
-
-.division-button {
-}
-
-.multiply-button {
-}
-
-.subtract-button {
-}
-
-.addition-button {
 }
 
 .number-button {
@@ -72,4 +66,5 @@ button {
 .equal-button {
     grid-column: 2/-1;
     background-color: rgba(255, 166, 0, 0.932);
+    font-size: 20px;
 }
