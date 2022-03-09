@@ -58,6 +58,7 @@ numButtons.forEach(button => {
             removeAllChildNodes(displayPara);
             removeAllChildNodes(numberTracker);
             displayPara.textContent += button.innerText;
+            numArray.pop();
         } else {
         displayPara.textContent += button.innerText;
         }
